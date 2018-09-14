@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div style="border: 3px solid black;width: 70%">
+			<div style="width:100%;">
+					<center>
+					<hg colspan="2" style="text-shadow: 1px 0.7px 0.8px;font-size: 22px;">Rajiv Gandhi University of Knowledge Technologies-IIIT Nuzvid</hg>
+					</center>
+			</div>
+				
+			<table style="border: 1px solid black;width: 100%;font-size: 20px;font-weight: 100px; background-color:#efeded; font-style: bold; font-family: Arial, Helvetica, sans-serif;">
+				
+				<tr>
+					<td style="width: 150px;">Student IDNO:</td>
+					<td>$row["id"]</td>
+				</tr>
+				<tr>
+					<td>Student Name:</td>
+					<td>$row["name"]</td>
+				</tr>
+				<tr>
+					<td>Year & Sem:</td>
+					<td>$row["year"]</td>
+				</tr>
+			</table>
+			
+
+			<table border="1px solid black" style="width:100%;border-collapse: collapse;font-size:20px;background-color: #c7d5ed;">
+					<tr style="text-align: center;">
+						<th>Subject</th> 
+						<th>Code</th> 
+						<th>Marks</th>
+					</tr>
+					<tr>
+						<td>Cyber Security</td>
+						<td style="text-align: center;">099</td> 
+						<td style="text-align: center;">'.$f["sub1"].'</td>
+					</tr>
+					<tr >
+						<td>NLP</td>
+						<td style="text-align: center;">099</td>
+						<td style="text-align: center;">'.$f["sub2"].'</td>
+					</tr>
+					<tr>
+						<td>Data Mining</td>
+						<td style="text-align: center;">099</td> 
+						<td style="text-align: center;">'.$f["sub3"].'</td>
+					</tr>
+					<tr>
+						<td>Bioinformatics</td>
+						<td style="text-align: center;">099</td> 
+						<td style="text-align: center;">'.$f["sub4"].'</td>
+					</tr>
+					<tr >
+						<td>Compiler Design</td>
+						<td style="text-align: center;">099</td>
+						<td style="text-align: center;">'.$f["sub5"].'</td>
+					</tr>
+		</table>
+	</div>
+</body>
+</html>
